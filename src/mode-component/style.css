@@ -1,0 +1,234 @@
+
+/* -------------------Header---------------------------------------------------------- */
+/* .navbar{
+    background: grey;
+    height: 90px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar li{
+    flex: 1;
+}
+
+ .navbar a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    text-align: center;
+    padding-top: 30px;
+    height: 90px;
+    
+}
+.navbar li a:hover{
+    color: white;
+    background-color:red;
+    border-bottom: 1px solid white;
+}  */
+
+  
+
+
+
+#nav{
+    background: grey;
+    border: grey;
+} 
+
+
+#btnItems{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    
+}
+
+#setting{
+    color: darkblue;
+}
+
+
+
+
+
+/* ----------------------Media Query------------------------------------ */
+
+@media (min-width: 576px) { 
+    #nav a:hover{
+        background: green;
+        border: green;
+    }
+    .sticky{
+        position: fixed;
+       
+        bottom: 0;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #nav a:hover{
+        background: green;
+        border: green;
+    }
+    .sticky{
+        position: fixed;
+       
+        bottom: 0;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+    #nav a:hover{
+        background: green;
+        border: green;
+    }
+    .sticky{
+        position: fixed;
+       
+        bottom: 0;
+    }
+ }
+/* 
+// Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #nav a:hover{
+        background: red;
+        border: red;
+    }
+    .sticky{
+        position: relative;
+
+    }
+ }
+
+
+/* --------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------Section-------------------------------------------- */
+.section-2{
+    display: flex;
+   
+    
+}
+.item {
+    width: 200px;
+}
+.item p{
+    text-align: center;
+    color:white;
+}
+#big{
+    font-size: 20px;
+}
+.section-3{
+    display: flex;
+    
+}
+#Gauge{ 
+ /*transform: translateX(800%) translateY(0%);*/
+    color: grey;
+}
+
+ 
+  /*-------------------footer---------------------------------------------------  */
+  .footer-4{
+    display: flex;
+     height:70px ;
+     width:100%;
+    color: white;
+    text-align: center;
+    /* transform: translateX(0px) translateY(7px); */
+    background-color: black;
+      } 
+
+
+  .footerbtn{
+      display: flex;
+      height:70px;
+      width: 60%;
+  }
+
+ 
+.listoffooter{
+    height: 100%;
+    width: 100%;
+}
+.headfooter{
+    display:grid;
+
+    grid-template-columns: 300px 300px 300px 300px 300px 300px ;
+
+    background: grey;
+
+}
+  
+  .section-4 .play{
+
+   
+    transform: translateX(-25%) translateY(-50%);
+}
+
+  .section-4 .play{
+    
+    display: inline-block;
+    background-color: black;
+    margin-top: 25PX;
+    color: rgb(7, 255, 234);
+   transform: translateX(22%);
+    padding: 20px 0px;
+    height: 1rem;
+    width: 8.5rem;
+}
+
+.item2{
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px 50px;
+    transform: translateX(120px) translateY(0px);   
+   
+}
+
+
+.btn_name{
+    margin-right: 10px;
+}
+.btn_name{
+margin-left: 10px;
+}
+.play{
+    font-size: 25px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px 100px;  
+
+}
+.buttons .styls{
+    flex: 1;
+    margin: 1px;
+}
