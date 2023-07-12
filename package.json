@@ -12,7 +12,7 @@
     "canvas-gauges": "^2.1.7",
     "material-dashboard": "^2.1.0",
     "material-icons-react": "^1.0.4",
-    "node-sass": "^4.14.1",
+    "node-sass": "^9.0.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-compound-slider": "^0.16.3",
@@ -21,7 +21,7 @@
     "react-jvectormap": "0.0.16",
     "react-rangeslider": "^2.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^2.1.8"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
